@@ -1,0 +1,88 @@
+/* html, body {
+    overflow-x: hidden;
+} */
+
+body {
+    background-color: #FFF9E9;
+    color: #FFF9E9;
+}
+
+/* Customize the scrollbar track */
+::-webkit-scrollbar {
+    width: 6px; /* Set the width of the scrollbar */
+    height: 12px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #949494; /* Set the color of the scrollbar handle */
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #949494; /* Set the color of the scrollbar handle on hover */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ececec;
+    border-radius: 5px;
+}
+
+section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.swal2-title {
+    font-family: Roboto, sans-serif !important;
+    font-size: 20px !important;
+    font-weight: lighter !important;
+}
+
+@media (max-width:768px) {
+    html, body{
+        overflow-x: hidden;
+    }
+}
+
+.hvr-underline-from-center:before {
+    background-color: #FFF9E9; /* New color */
+}
+
+
+.card {
+border-top:#FF8B00 solid 4px;
+}
+
+.mask {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero {
+    background-image: url('../images/hero/hero.jpg'); height: 80vh; top:0;
+}
+
+.ripple {
+    border-radius: 5px;
+}
+
+.notfound {
+    font-size: 10em;
+}
+
+.img-pokemon {
+    width: 150px;
+}
+
+.navbar-bg {
+    background-color: #FF8B00;
+}
+
+.footer-bg {
+    background-color: #FF8B00;
+}
+
+.footer-end{
+    background-color: rgba(0, 0, 0, 0.2);
+}
