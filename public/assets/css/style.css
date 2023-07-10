@@ -86,3 +86,10 @@ border-top:#FF8B00 solid 4px;
 .footer-end{
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+.upload-btn {
+    background-color: #FD3F46;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
