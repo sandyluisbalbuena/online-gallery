@@ -86,7 +86,7 @@ const Home = () => {
 
       <section className='row'>
         {imageUrls.map((imageUrl, index) => (
-          <div className='col-12 col-md-2' key={index}>
+          <div className='col-12 col-md-3' key={index}>
             <img
               className='rounded my-4'
               src={imageUrl}

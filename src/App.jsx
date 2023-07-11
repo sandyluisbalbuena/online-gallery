@@ -20,7 +20,6 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 function App() {
-
 	
 	return (
 		<>
